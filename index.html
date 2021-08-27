@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NB nails salon</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/fontawesome.min.css"> -->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.1.8/css/lightgallery.min.css">
+</head>
+
+<body>
+    <div class="preloader">
+        <div class="preloader__body">
+            <div class="preloader__item load-one"></div>
+            <div class="preloader__item load-two"></div>
+            <div class="preloader__item load-three"></div>
+        </div>
+    </div>
+    <!--==================== HEADER ====================-->
+    <header class="header">
+        <div class="header__container container">
+            <div class="header__content">
+                <div class="header__logo">
+                    <a class="header__logo-link" href="#">
+                        <img class="header__logo-img" src="img/logo2.png" alt="NB nails">
+                    </a>
+                </div>
+                <nav class="header__nav">
+                    <div class="burger-btn">
+                        <span></span>
+                    </div>
+                    <ul class="header__nav-items">
+                        <li class="header__nav-item">
+                            <a href="#" class="header__nav-link">home</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#about" class="header__nav-link">about</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#services" class="header__nav-link">services</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#team" class="header__nav-link">team</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#portfolio" class="header__nav-link">portfolio</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#testimonials" class="header__nav-link">testimonials</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#pricing" class="header__nav-link">pricing</a>
+                        </li>
+                    </ul>
+                </nav>
+
+            </div>
+        </div>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home">
+            <div class="home__container container">
+                <div class="home__content">
+                    <h1 class="home__title">Hundreds of Colors, Organic Nail Polish!</h1>
+                    <p class="home__text">With its diverse list of members, professional equipment and lots of tidy
+                        courts the.</p>
+                    <a href="#" class="home__button btn btn--pink">book now</a>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== ABOUT ====================-->
+        <section class="about" id="about">
+            <div class="about__container container">
+                <div class="about__content">
+                    <div class="about__image">
+                        <img src="img/bg1.png" alt="About us..." class="about__image-img">
+                    </div>
+                    <div class="about__info">
+                        <h2 class="about__info-title">About us…</h2>
+                        <p class="about__info-subtitle">“Every year we help thousands of women feel and look even more
+                            stylish!”</p>
+                        <p class="about__info-text">When you feel like your daily work routine really exhausted you,
+                            feel free to come by. Our professional manicurists will do their best to soothe and calm
+                            your body & mind! Choose any color of your nail polish – and we will make it work for you!
+                        </p>
+                        <a href="#" class="about__button btn btn--pink">about</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== CARE ====================-->
+        <section class="care">
+            <div class="care__container container">
+                <div class="care__content">
+                    <div class="care__info">
+                        <h2 class="care__info-title">Take Care of <span>Your Nails</span></h2>
+                        <h3 class="care__info-subtitle">Paint Them Color Awesome!</h3>
+                        <a href="#" class="care__button btn btn--pink">about</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== SERVICES ====================-->
+        <section class="services" id="services">
+            <div class="services__container container">
+                <div class="services__content">
+                    <div class="services__image">
+                        <img src="img/bg2.png" alt="Do nails..." class="services__image-img">
+                    </div>
+
+                    <div class="services__info">
+                        <h2 class="services__info-title">Do Nails & Waxing!</h2>
+                        <div class="services__tabs">
+                            <div class="services__tab active" data-services=".manicure-services">Manicure</div>
+                            <div class="services__tab" data-services=".pedicure-services">Pedicure</div>
+                            <div class="services__tab" data-services=".waxing-services">Waxing</div>
+                        </div>
+
+                        <div class="services__sections">
+                            <div class="manicure-services services__section active fade-in-top">
+                                <div class="services__data">
+                                    <h3 class="services__title">Manicure</h3>
+                                    <p class="services__text">While hand and nail care is usually restricted to
+                                        just a few services, we’ve got a wide selection of various pedicure
+                                        methods, just as well as the overall hands skin care treatments…</p>
+                                    <p class="services__subtext">Here’s a list of those:</p>
+                                    <ul class="services__list">
+                                        <li class="services__item"><i class="fas fa-asterisk"></i>
+                                            Regular Manicure
+                                        </li>
+                                        <li class="services__item"><i class="fas fa-asterisk"></i>
+                                            Spa Manicure
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="pedicure-services services__section fade-in-top">
+                                <div class="services__data">
+                                    <h3 class="services__title">Pedicure</h3>
+                                    <p class="services__text">While hand and nail care is usually restricted to
+                                        just a few services, we’ve got a wide selection of various pedicure
+                                        methods, just as well as the overall hands skin care treatments…</p>
+                                    <p class="services__subtext">Here’s a list of those:</p>
+                                    <ul class="services__list">
+                                        <li class="services__item"><i class="fas fa-asterisk"></i>
+                                            Regular Pedicure
+                                        </li>
+                                        <li class="services__item"><i class="fas fa-asterisk"></i>
+                                            Spa Pedicure
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="waxing-services services__section fade-in-top">
+                                <div class="services__data">
+                                    <h3 class="services__title">Waxing</h3>
+                                    <p class="services__text">While hand and nail care is usually restricted to
+                                        just a few services, we’ve got a wide selection of various pedicure
+                                        methods, just as well as the overall hands skin care treatments…</p>
+                                    <p class="services__subtext">Here’s a list of those:</p>
+                                    <ul class="services__list">
+                                        <li class="services__item"><i class="fas fa-asterisk"></i>
+                                            Regular Waxing
+                                        </li>
+                                        <li class="services__item"><i class="fas fa-asterisk"></i>
+                                            Spa Waxing
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== TEAM ====================-->
+        <section class="team" id="team">
+            <div class="team__container container">
+                <div class="team__content">
+                    <div class="team__info">
+                        <h2 class="team__title">Meet the Team</h2>
+                        <p class="team__text">
+                            Promising Excellence in Everything We Do. Come and try!
+                        </p>
+                    </div>
+                    <div class="team__body">
+                        <div class="team__member">
+                            <div class="team__member-img">
+                                <img src="img/team/people1.jpg" alt="">
+                            </div>
+                            <div class="team__member-details member-details">
+                                <h3 class="member-details__name">Mary Applebaum</h3>
+                                <span class="member-details__position">NAIL GIRL</span>
+                                <p class="member-details__desc">
+                                    A Juneau, Alaska native, Mrs. Applebaum has come a long way since her high school
+                                    graduation all the way up to getting a Brown University Master’s degree in
+                                    Economics. Talented with the digits, she’s no less successful when it comes to
+                                    managing the human resources
+                                </p>
+                                <div class="member-details__social">
+                                    <ul class="member-details__social-items">
+                                        <li class="member-details__social-item">
+                                            <a href="#" class="member-details__social-link">
+                                                <i class="fab fa-facebook-f"></i>
+                                            </a>
+                                        </li>
+                                        <li class="member-details__social-item">
+                                            <a href="#" class="member-details__social-link">
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                        <li class="member-details__social-item">
+                                            <a href="#" class="member-details__social-link">
+                                                <i class="fab fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team__member">
+                            <div class="team__member-img">
+                                <img src="img/team/people2.jpg" alt="">
+                            </div>
+                            <div class="team__member-details member-details">
+                                <h3 class="member-details__name">Emily Bluesome</h3>
+                                <span class="member-details__position">NAIL GIRL</span>
+                                <p class="member-details__desc">
+                                    If you’d ask any of our workers, who is the executive manager that they’re always
+                                    looking up and living up to, most likely Emily’s name will surface. Having a vast
+                                    and thorough practical working experience lasting for more than 18 years, Mrs.
+                                    Bluesome is an
+                                </p>
+                                <div class="member-details__social">
+                                    <ul class="member-details__social-items">
+                                        <li class="member-details__social-item">
+                                            <a href="#" class="member-details__social-link">
+                                                <i class="fab fa-facebook-f"></i>
+                                            </a>
+                                        </li>
+                                        <li class="member-details__social-item">
+                                            <a href="#" class="member-details__social-link">
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                        <li class="member-details__social-item">
+                                            <a href="#" class="member-details__social-link">
+                                                <i class="fab fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team__member">
+                            <div class="team__member-img">
+                                <img src="img/team/people3.jpg" alt="">
+                            </div>
+                            <div class="team__member-details member-details">
+                                <h3 class="member-details__name">Diane Beaton</h3>
+                                <span class="member-details__position">NAIL GIRL</span>
+                                <p class="member-details__desc">
+                                    If you’d ever need to figure out a workaround for a complicated business problem,
+                                    look no further than Diane’s desk for getting a thorough and all-rounded advice… She
+                                    has been working in the industry for more than 20 years, knowing all the ins and
+                                    outs
+                                </p>
+                                <div class="member-details__social">
+                                    <ul class="member-details__social-items">
+                                        <li class="member-details__social-item">
+                                            <a href="#" class="member-details__social-link">
+                                                <i class="fab fa-facebook-f"></i>
+                                            </a>
+                                        </li>
+                                        <li class="member-details__social-item">
+                                            <a href="#" class="member-details__social-link">
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                        <li class="member-details__social-item">
+                                            <a href="#" class="member-details__social-link">
+                                                <i class="fab fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team__member">
+                            <div class="team__member-img">
+                                <img src="img/team/people4.jpg" alt="">
+                            </div>
+                            <div class="team__member-details member-details">
+                                <h3 class="member-details__name">Elisa Hansolo</h3>
+                                <span class="member-details__position">NAIL GIRL</span>
+                                <p class="member-details__desc">
+                                    Born in New York City, Elisa always felt a strong urge for being an ambitious
+                                    overachiever. Eventually, by the age of 25 she already had received her first Wall
+                                    Street executive position, making her one of the youngest managers in the
+                                    company. With her overall
+                                </p>
+                                <div class="member-details__social">
+                                    <ul class="member-details__social-items">
+                                        <li class="member-details__social-item">
+                                            <a href="#" class="member-details__social-link">
+                                                <i class="fab fa-facebook-f"></i>
+                                            </a>
+                                        </li>
+                                        <li class="member-details__social-item">
+                                            <a href="#" class="member-details__social-link">
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                        <li class="member-details__social-item">
+                                            <a href="#" class="member-details__social-link">
+                                                <i class="fab fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team__button">
+                        <a href="#" class="team__button-btn btn btn--white">view all team</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== PORTFOLIO ====================-->
+        <section class="portfolio" id="portfolio">
+            <div class="portfolio__container container">
+                <div class="portfolio__content">
+                    <div class="portfolio__info">
+                        <h2 class="portfolio__title">Our Perfect Works</h2>
+                        <p class="portfolio__text">Familiarize yourself with the works of our masters. All procedures
+                            are performed by experienced masters of our studio.
+                        </p>
+                    </div>
+                    <div class="portfolio__items" id="lightgallery">
+                        <a href="img/portfolio/post1.jpg">
+                            <div class="portfolio__item">
+                                <div class="portfolio__item-img">
+                                    <img src="img/portfolio/post1.jpg" alt="">
+                                </div>
+                                <div class="portfolio__item-content item-content">
+                                    <div class="item-content__icon">
+                                        <i class="far fa-image"></i>
+                                    </div>
+                                    <h5 class="item-content__title">Pedicure</h5>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="img/portfolio/post2.jpg">
+                            <div class="portfolio__item">
+                                <div class="portfolio__item-img">
+                                    <img src="img/portfolio/post2.jpg" alt="">
+                                </div>
+                                <div class="portfolio__item-content item-content">
+                                    <div class="item-content__icon">
+                                        <i class="far fa-image"></i>
+                                    </div>
+                                    <h5 class="item-content__title">Manicure</h5>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="img/portfolio/post3.jpg">
+                            <div class="portfolio__item">
+                                <div class="portfolio__item-img">
+                                    <img src="img/portfolio/post3.jpg" alt="">
+                                </div>
+                                <div class="portfolio__item-content item-content">
+                                    <div class="item-content__icon">
+                                        <i class="far fa-image"></i>
+                                    </div>
+                                    <h5 class="item-content__title">Waxing</h5>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="img/portfolio/post4.jpg">
+                            <div class="portfolio__item">
+                                <div class="portfolio__item-img">
+                                    <img src="img/portfolio/post4.jpg" alt="">
+                                </div>
+                                <div class="portfolio__item-content item-content">
+                                    <div class="item-content__icon">
+                                        <i class="far fa-image"></i>
+                                    </div>
+                                    <h5 class="item-content__title">Pedicure</h5>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="img/portfolio/post5.jpg">
+                            <div class="portfolio__item">
+                                <div class="portfolio__item-img">
+                                    <img src="img/portfolio/post5.jpg" alt="">
+                                </div>
+                                <div class="portfolio__item-content item-content">
+                                    <div class="item-content__icon">
+                                        <i class="far fa-image"></i>
+                                    </div>
+                                    <h5 class="item-content__title">Waxing</h5>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="img/portfolio/post6.jpg">
+                            <div class="portfolio__item">
+                                <div class="portfolio__item-img">
+                                    <img src="img/portfolio/post6.jpg" alt="">
+                                </div>
+                                <div class="portfolio__item-content item-content">
+                                    <div class="item-content__icon">
+                                        <i class="far fa-image"></i>
+                                    </div>
+                                    <h5 class="item-content__title">Manicure</h5>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="img/portfolio/post7.jpg">
+                            <div class="portfolio__item">
+                                <div class="portfolio__item-img">
+                                    <img src="img/portfolio/post7.jpg" alt="">
+                                </div>
+                                <div class="portfolio__item-content item-content">
+                                    <div class="item-content__icon">
+                                        <i class="far fa-image"></i>
+                                    </div>
+                                    <h5 class="item-content__title">Manicure</h5>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="img/portfolio/post8.jpg">
+                            <div class="portfolio__item">
+                                <div class="portfolio__item-img">
+                                    <img src="img/portfolio/post8.jpg" alt="">
+                                </div>
+                                <div class="portfolio__item-content item-content">
+                                    <div class="item-content__icon">
+                                        <i class="far fa-image"></i>
+                                    </div>
+                                    <h5 class="item-content__title">Pedicure</h5>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="img/portfolio/post3.jpg">
+                            <div class="portfolio__item">
+                                <div class="portfolio__item-img">
+                                    <img src="img/portfolio/post3.jpg" alt="">
+                                </div>
+                                <div class="portfolio__item-content item-content">
+                                    <div class="item-content__icon">
+                                        <i class="far fa-image"></i>
+                                    </div>
+                                    <h5 class="item-content__title">Manicure</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="portfolio__button">
+                        <a href="#" class="portfolio__button-btn btn btn--white">go to instagram</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== TESTIMONIALS ====================-->
+        <section class="testimonials" id="testimonials">
+            <div class="testimonials__container container">
+                <div class="testimonials__content">
+                    <h2 class="testimonials__title">Testimonials</h2>
+                    <p class="testimonials__text">See some of the most recent testimonials written by some of our new
+                        &amp; returning customers…</p>
+                    <!-- Slider main container -->
+                    <div class="testimonials__slider swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="testimonials__slider-wrapper swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="testimonials__slider-slide swiper-slide">
+                                <div class="slider-slide__image">
+                                    <img src="img/clients/client1.png" alt="">
+                                </div>
+                                <div class="slider-slide__content">
+                                    <p class="slider-slide__comment">At first I was really scared to go play tennis at a
+                                        brand
+                                        new venue. But as it turns out it is quite easy to make friends here. I got
+                                        along with a lot of the campers my age, and the camp staff were awesome!! We got
+                                        to play tennis, swim, and play field games.…
+                                    </p>
+                                    <a class="slider-slide__name" href="#">Jade Matthews</a>
+                                    <span class="slider-slide__position">manicure</span>
+                                </div>
+                            </div>
+                            <div class="testimonials__slider-slide swiper-slide">
+                                <div class="slider-slide__image">
+                                    <img src="img/clients/client2.png" alt="">
+                                </div>
+                                <div class="slider-slide__content">
+                                    <p class="slider-slide__comment">Just like any other girl, I love spending hours
+                                        doing my
+                                        nails and talking to a nail girl. This is the place for me!As
+                                        soon as I’ve moved to LA, I regretted just one thing – losing my old nail salon.
+                                        But luckily I found this one!
+                                    </p>
+                                    <a class="slider-slide__name" href="#">Joanne Stone</a>
+                                    <span class="slider-slide__position">manicure</span>
+                                </div>
+                            </div>
+                            <div class="testimonials__slider-slide swiper-slide">
+                                <div class="slider-slide__image">
+                                    <img src="img/clients/client3.png" alt="">
+                                </div>
+                                <div class="slider-slide__content">
+                                    <p class="slider-slide__comment">As I moved to California from New York, I just had
+                                        to find
+                                        a replacement for my favorite tennis club that I’ve been
+                                        attending before. This one seemed an obvious choice for me since it has so many
+                                        professional tennis players as members!
+                                    </p>
+                                    <a class="slider-slide__name" href="#">Kathleen O’Mallon</a>
+                                    <span class="slider-slide__position">manicure</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- If we need navigation buttons -->
+                        <div class="fa fa-angle-left swiper-button-prev"></div>
+                        <div class="fa fa-angle-right swiper-button-next"></div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!--==================== PRICING ====================-->
+        <section class="pricing" id="pricing">
+            <div class="pricing__container container">
+                <div class="pricing__content">
+                    <div class="pricing__info">
+                        <h2 class="pricing__title">Pricing</h2>
+                        <p class="pricing__text">We believe that your perfect nails are the result of the continuous
+                            search for excellence, attention to detail, taste for innovation, and readiness to any
+                            experience with nail design.
+                        </p>
+                    </div>
+                    <div class="pricing__tabs">
+                        <div class="pricing__tab active" data-pricing=".manicure-pricing">Manicure</div>
+                        <div class="pricing__tab" data-pricing=".pedicure-pricing">Pedicure</div>
+                        <div class="pricing__tab" data-pricing=".waxing-pricing">Waxing</div>
+                    </div>
+                    <div class="pricing__sections">
+                        <div class="manicure-pricing pricing__section active fade-in">
+                            <div class="pricing__data">
+                                <div class="pricing__image">
+                                    <img src="img/price/manicure.jpg" alt="Price manicure" class="pricing__image-img">
+                                </div>
+                                <div class="pricing__price price-service">
+                                    <h3 class="price-service__title">Manicure</h3>
+                                    <p class="price-service__desc">
+                                        While hand and nail care is usually restricted to just a few services, we’ve got
+                                        a wide selection of various pedicure methods, just as well as the overall hands
+                                        skin care treatments…
+                                    </p>
+                                    <h4 class="price-service__subtitle">Here’s a list of those:</h4>
+                                    <ul class="price-service__items">
+                                        <li class="price-service__item">Acrylic Full Set
+                                            <span class="price-service__item-decorator"></span>
+                                            <span class="price-service__item-value">$20</span>
+                                        </li>
+                                        <li class="price-service__item">Polish Change – Hands & Toes
+                                            <span class="price-service__item-decorator"></span>
+                                            <span class="price-service__item-value">$35</span>
+                                        </li>
+                                        <li class="price-service__item">French Manicure
+                                            <span class="price-service__item-decorator"></span>
+                                            <span class="price-service__item-value">$45</span>
+                                        </li>
+                                        <li class="price-service__item">Gradation
+                                            <span class="price-service__item-decorator"></span>
+                                            <span class="price-service__item-value">$55</span>
+                                        </li>
+                                        <li class="price-service__item">Nails designs
+                                            <span class="price-service__item-decorator"></span>
+                                            <span class="price-service__item-value">$40</span>
+                                        </li>
+                                        <li class="price-service__item">Nail Fix
+                                            <span class="price-service__item-decorator"></span>
+                                            <span class="price-service__item-value">$105</span>
+                                        </li>
+                                        <li class="price-service__item">Gel Take Off
+                                            <span class="price-service__item-decorator"></span>
+                                            <span class="price-service__item-value">$155</span>
+                                        </li>
+                                        <li class="price-service__item">Acrylic Take Off
+                                            <span class="price-service__item-decorator"></span>
+                                            <span class="price-service__item-value">$15</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pedicure-pricing pricing__section fade-in">
+                            <div class="pricing__data">
+                                <div class="pricing__price price-service">
+                                    <h3 class="price-service__title">Pedicure</h3>
+                                    <p class="price-service__desc">
+                                        Taking a good care of your feet and nails is essential.
+                                        We provide an ultimate, SPA induced services for refreshing your health and
+                                        enhancing your aesthetics…
+                                    </p>
+                                    <h4 class="price-service__subtitle">We currently provide the following services:
+                                    </h4>
+                                    <ul class="price-service__items">
+                                        <li class="price-service__item">Regular Pedicure
+                                            <span class="price-service__item-decorator"></span>
+                                            <span class="price-service__item-value">$20</span>
+                                        </li>
+                                        <li class="price-service__item">Spa Pedicure Callus Removal + Mud Pack + Hot
+                                            Towel
+                                            Wraps + Lotion Massage
+                                            <span class="price-service__item-decorator"></span>
+                                            <span class="price-service__item-value">$105</span>
+                                        </li>
+                                        <li class="price-service__item">Gel Pedicure
+                                            <span class="price-service__item-decorator"></span>
+                                            <span class="price-service__item-value">$85</span>
+                                        </li>
+                                        <li class="price-service__item">French Pedicure
+                                            <span class="price-service__item-decorator"></span>
+                                            <span class="price-service__item-value">$55</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="pricing__image">
+                                    <img src="img/price/pedicure.jpg" alt="Price pedicure" class="pricing__image-img">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="waxing-pricing pricing__section fade-in">
+                            <div class="pricing__data">
+                                <div class="pricing__image">
+                                    <img src="img/price/waxing.jpg" alt="Price waxing" class="pricing__image-img">
+                                </div>
+                                <div class="pricing__price price-service">
+                                    <h3 class="price-service__title">Waxing</h3>
+                                    <p class="price-service__desc">
+                                        Waxing is a vital way to keep your skin elastic, clean and smooth…
+                                        Our SPA & skin care salon has always focused on providing an excellent
+                                        experience
+                                        for anyone who wants to wax their facial or body skin…
+                                    </p>
+                                    <h4 class="price-service__subtitle">Currently, we offer a waxing service for the
+                                        following body areas:</h4>
+                                    <ul class="price-service__items">
+                                        <li class="price-service__item">Eyebrow Arch
+                                            <span class="price-service__item-decorator"></span>
+                                            <span class="price-service__item-value">$20</span>
+                                        </li>
+                                        <li class="price-service__item">Eyebrow Design
+                                            <span class="price-service__item-decorator"></span>
+                                            <span class="price-service__item-value">$50</span>
+                                        </li>
+                                        <li class="price-service__item">Full Arm
+                                            <span class="price-service__item-decorator"></span>
+                                            <span class="price-service__item-value">$70</span>
+                                        </li>
+                                        <li class="price-service__item">Full Back Or Chest
+                                            <span class="price-service__item-decorator"></span>
+                                            <span class="price-service__item-value">$65</span>
+                                        </li>
+                                        <li class="price-service__item">Full Face (Excludes Eyebrow)
+                                            <span class="price-service__item-decorator"></span>
+                                            <span class="price-service__item-value">$140</span>
+                                        </li>
+                                        <li class="price-service__item">Full Leg
+                                            <span class="price-service__item-decorator"></span>
+                                            <span class="price-service__item-value">$95</span>
+                                        </li>
+                                        <li class="price-service__item">Full Leg And a Brazilian
+                                            <span class="price-service__item-decorator"></span>
+                                            <span class="price-service__item-value">$75</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== SUBSCRIBE ====================-->
+        <section class="subscribe">
+            <div class="subscribe__container container">
+                <div class="subscribe__content">
+                    <div class="subscribe__info">
+                        <h2 class="subscribe__title">Get All Special Offers!</h2>
+                        <p class="subscribe__text">Sign up for our newsletter and get all the latest tips and tricks to
+                            polish your nails at a good rate!</p>
+                        <form action="#" class="subscribe__form" method="post">
+                            <input class="subscribe__form-email" type="email" placeholder="e-mail" name="email"
+                                id="form-email">
+                            <input class="subscribe__form-btn btn btn--pink" type="submit" value="submit">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer__container container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <a class="footer__logo" href="#">
+                        <img class="footer__logo-img" src="img/logo2.png" alt="NB nails">
+                    </a>
+                    <p class="footer__text">Hundreds of Colors, Organic Nail Polish!</p>
+                </div>
+                <div class="footer__contact">
+                    <ul class="footer__contact-items">
+                        <li class="footer__contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>54421 Tennessee hwy., Alexandria, VA, USA, 22303</span>
+                        </li>
+                        <li class="footer__contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <a class="footer__contact-link" href="mailto:info@nb_nails.com">info@nb_nails.com</a>
+                        </li>
+                        <li class="footer__contact-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <a class="footer__contact-link" href="tel:+39876543210">+39 876 543 210</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__social">
+                    <ul class="footer__social-items">
+                        <li class="footer__social-item">
+                            <a href="https://www.facebook.com" target="_blank" class="footer__social-link">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="footer__social-item">
+                            <a href="https://www.instagram.com" target="_blank" class="footer__social-link">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="footer__social-item">
+                            <a href="https://twitter.com" target="_blank" class="footer__social-link">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="footer__social-item">
+                            <a href="#" target="_blank" class="footer__social-link">
+                                <i class="fab fa-telegram-plane"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" class="scroll-top hide" id="scrolltop"></a>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.1.8/lightgallery.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

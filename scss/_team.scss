@@ -1,0 +1,193 @@
+.team {
+    background-color: #f8f8f8;
+    padding: 105px 0 125px 0;
+    @include breakpoint($tablet) {
+        padding: 50px 0;
+    }
+    @include breakpoint($mobile) {
+        padding: 50px 10px;
+    }
+    // .team__container
+    &__container {
+        max-width: 100%;
+        margin: 0;
+        @include breakpoint($mobile) {
+            padding: 0;
+        }
+    }
+    // .team__content
+    &__content {
+    }
+    // .team__info
+    &__info {
+        @include breakpoint($mobile) {
+            padding: 0 10px;
+        }
+    }
+    // .team__title
+    &__title {
+        color: $main-color;
+        font-size: 51px;
+        font-weight: 700;
+        line-height: 61px;
+        letter-spacing: 1px;
+        text-align: center;
+        margin-bottom: 25px;
+        @include breakpoint($tablet) {
+            font-size: 48px;
+        }
+        @include breakpoint($mobile) {
+            font-size: 40px;
+            margin-bottom: 16px;
+            line-height: 50px;
+        }
+    }
+    //.team__text
+    &__text {
+        color: $main-color;
+        font-family: $font-second;
+        font-size: 17px;
+        line-height: 23px;
+        text-align: center;
+        margin-bottom: 60px;
+        @include breakpoint($mobile) {
+            margin-bottom: 38px;
+        }
+    }
+    // .team__body
+    &__body {
+        margin-bottom: 92px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        @include breakpoint($tablet) {
+            margin-bottom: 61px;
+        }
+    }
+    // .team__member
+    &__member {
+        position: relative;
+        &::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba($color: #ffffff, $alpha: 0.85);
+            opacity: 0;
+            visibility: hidden;
+            transition: $animation-transition;
+            z-index: 1;
+        }
+        &:hover::after {
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+    // .team__member-img
+    &__member-img {
+        height: 600px;
+        @include breakpoint($tablet) {
+            height: 500px;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    // .team__member-details
+    &__member-details {
+    }
+    // .team__button
+    &__button {
+        display: flex;
+        justify-content: center;
+    }
+    // .team__button-btn
+    &__button-btn {
+    }
+}
+
+.member-details {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 20px;
+    transition: $animation-transition;
+    opacity: 0;
+    z-index: 2;
+    &:hover {
+        opacity: 1;
+    }
+    // .member-details__name
+    &__name {
+        color: $main-color;
+        font-size: 28px;
+        font-weight: 300;
+        line-height: 40px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    // .member-details__position
+    &__position {
+        color: #bdbdbd;
+        font-family: $font-second;
+        font-size: 12px;
+        line-height: 20px;
+        letter-spacing: 2px;
+        margin-bottom: 15px;
+    }
+    // .member-details__desc
+    &__desc {
+        color: #757575;
+        font-family: $font-second;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: left;
+        margin-bottom: 20px;
+        @include breakpoint($mobile) {
+            font-size: 14px;
+        }
+    }
+    // .member-details__social
+    &__social {
+        align-self: center;
+    }
+    // .member-details__social-items
+    &__social-items {
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    // .member-details__social-item
+    &__social-item {
+    }
+    // .member-details__social-link
+    &__social-link {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        background-color: $white-color;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin: 5px;
+        transition: $animation-transition;
+        color: $pink-color;
+        font-size: 14px;
+        &:hover,
+        &:focus {
+            background-color: $pink-color;
+            color: $white-color;
+        }
+    }
+}
