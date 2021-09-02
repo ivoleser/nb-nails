@@ -1,8 +1,5 @@
 .services {
-    background-image: url(../img/bg4.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url(../img/bg/bg4.jpg) center / cover no-repeat;
     padding-top: 140px;
     margin-bottom: -5px;
     @include breakpoint($tablet) {
@@ -42,7 +39,6 @@
     &__info {
         width: 100%;
         padding: 8px 290px 0 30px;
-        //flex: 0 1 50%;
         @include breakpoint($tablet) {
             padding: 0 130px 0 70px;
         }
@@ -71,11 +67,11 @@
     &__tabs {
         display: flex;
         width: fit-content;
-        border-bottom: 1px solid #ebebeb;
+        border-bottom: 1px solid $light-gray-color;
     }
     // .services__tab
     &__tab {
-        color: #757575;
+        color: $gray-color;
         font-size: 18px;
         font-weight: 600;
         line-height: 17px;
@@ -128,7 +124,7 @@
     }
     // .services__text
     &__text {
-        color: #757575;
+        color: $gray-color;
         font-family: $font-second;
         font-size: 16px;
         line-height: 26px;
@@ -148,7 +144,7 @@
     }
     // .services__item
     &__item {
-        color: #757575;
+        color: $gray-color;
         display: flex;
         align-items: center;
         font-family: $font-second;

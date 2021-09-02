@@ -34,7 +34,7 @@
     &__nav {
         padding-top: 35px;
         @include breakpoint($mobile) {
-            background-color: #fff;
+            background-color: $white-color;
             height: 100vh;
             width: 80%;
             position: fixed;
@@ -74,7 +74,7 @@
     }
     // .header__nav-link
     &__nav-link {
-        color: #1d1d1d;
+        color: $main-color;
         font-size: 17px;
         text-transform: uppercase;
         line-height: 25px;
@@ -99,7 +99,7 @@
         width: 35px;
         height: 35px;
         cursor: pointer;
-        background-color: #f64a5f;
+        background-color: $pink-color;
         border-radius: 4px;
         span,
         span:before,
@@ -109,7 +109,7 @@
             position: absolute;
             width: 15px;
             height: 2px;
-            background-color: #fff;
+            background-color: $white-color;
             border-radius: 5px;
             transition: all 0.3s ease-in-out;
         }

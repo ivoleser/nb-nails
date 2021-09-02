@@ -73,24 +73,24 @@ body {
 .load-one {
   left: 0%;
   top: 0%;
-  -webkit-animation: loadRotateOne 1s linear infinite;
-          animation: loadRotateOne 1s linear infinite;
+  -webkit-animation: load-rotate-one 1s linear infinite;
+          animation: load-rotate-one 1s linear infinite;
   border-bottom: 5px solid #f64a5f;
 }
 
 .load-two {
   right: 0%;
   top: 0%;
-  -webkit-animation: loadRotateTwo 1s linear infinite;
-          animation: loadRotateTwo 1s linear infinite;
+  -webkit-animation: load-rotate-two 1s linear infinite;
+          animation: load-rotate-two 1s linear infinite;
   border-right: 5px solid #b8b6b7;
 }
 
 .load-three {
   right: 0%;
   bottom: 0%;
-  -webkit-animation: loadRotateThree 1s linear infinite;
-          animation: loadRotateThree 1s linear infinite;
+  -webkit-animation: load-rotate-three 1s linear infinite;
+          animation: load-rotate-three 1s linear infinite;
   border-top: 5px solid #1d1d1d;
 }
 
@@ -105,7 +105,7 @@ body {
   display: none;
 }
 
-@-webkit-keyframes loadRotateOne {
+@-webkit-keyframes load-rotate-one {
   0% {
     -webkit-transform: rotateX(35deg) rotateY(-45deg) rotateZ(0deg);
             transform: rotateX(35deg) rotateY(-45deg) rotateZ(0deg);
@@ -116,7 +116,7 @@ body {
   }
 }
 
-@keyframes loadRotateOne {
+@keyframes load-rotate-one {
   0% {
     -webkit-transform: rotateX(35deg) rotateY(-45deg) rotateZ(0deg);
             transform: rotateX(35deg) rotateY(-45deg) rotateZ(0deg);
@@ -127,7 +127,7 @@ body {
   }
 }
 
-@-webkit-keyframes loadRotateTwo {
+@-webkit-keyframes load-rotate-two {
   0% {
     -webkit-transform: rotateX(50deg) rotateY(10deg) rotateZ(0deg);
             transform: rotateX(50deg) rotateY(10deg) rotateZ(0deg);
@@ -138,7 +138,7 @@ body {
   }
 }
 
-@keyframes loadRotateTwo {
+@keyframes load-rotate-two {
   0% {
     -webkit-transform: rotateX(50deg) rotateY(10deg) rotateZ(0deg);
             transform: rotateX(50deg) rotateY(10deg) rotateZ(0deg);
@@ -149,7 +149,7 @@ body {
   }
 }
 
-@-webkit-keyframes loadRotateThree {
+@-webkit-keyframes load-rotate-three {
   0% {
     -webkit-transform: rotateX(35deg) rotateY(55deg) rotateZ(0deg);
             transform: rotateX(35deg) rotateY(55deg) rotateZ(0deg);
@@ -160,7 +160,7 @@ body {
   }
 }
 
-@keyframes loadRotateThree {
+@keyframes load-rotate-three {
   0% {
     -webkit-transform: rotateX(35deg) rotateY(55deg) rotateZ(0deg);
             transform: rotateX(35deg) rotateY(55deg) rotateZ(0deg);
@@ -230,31 +230,31 @@ body {
 }
 
 .fade-in {
-  -webkit-animation: fadeIn 1s ease-in-out both;
-          animation: fadeIn 1s ease-in-out both;
+  -webkit-animation: fade-in 1s ease-in-out both;
+          animation: fade-in 1s ease-in-out both;
 }
 
 .fade-in-top {
-  -webkit-animation: fadeInTop 0.5s ease-in-out;
-          animation: fadeInTop 0.5s ease-in-out;
+  -webkit-animation: fade-in-top 0.5s ease-in-out;
+          animation: fade-in-top 0.5s ease-in-out;
 }
 
 .fade-in-bottom {
-  -webkit-animation: fadeInBottom 1s ease-in-out both;
-          animation: fadeInBottom 1s ease-in-out both;
+  -webkit-animation: fade-in-bottom 1s ease-in-out both;
+          animation: fade-in-bottom 1s ease-in-out both;
 }
 
 .scrolled.slide-left {
-  -webkit-animation: slideInLeft 1.5s ease-in-out both;
-          animation: slideInLeft 1.5s ease-in-out both;
+  -webkit-animation: slide-in-left 1.5s ease-in-out both;
+          animation: slide-in-left 1.5s ease-in-out both;
 }
 
 .slide-right {
-  -webkit-animation: slideInRight 1s ease-in-out both;
-          animation: slideInRight 1s ease-in-out both;
+  -webkit-animation: slide-in-right 1s ease-in-out both;
+          animation: slide-in-right 1s ease-in-out both;
 }
 
-@-webkit-keyframes slideInLeft {
+@-webkit-keyframes slide-in-left {
   0% {
     -webkit-transform: translateX(-100%);
             transform: translateX(-100%);
@@ -267,7 +267,7 @@ body {
   }
 }
 
-@keyframes slideInLeft {
+@keyframes slide-in-left {
   0% {
     -webkit-transform: translateX(-100%);
             transform: translateX(-100%);
@@ -280,7 +280,7 @@ body {
   }
 }
 
-@-webkit-keyframes slideInRight {
+@-webkit-keyframes slide-in-right {
   0% {
     -webkit-transform: translateX(100px);
             transform: translateX(100px);
@@ -293,7 +293,7 @@ body {
   }
 }
 
-@keyframes slideInRight {
+@keyframes slide-in-right {
   0% {
     -webkit-transform: translateX(100px);
             transform: translateX(100px);
@@ -306,7 +306,7 @@ body {
   }
 }
 
-@-webkit-keyframes fadeIn {
+@-webkit-keyframes fade-in {
   0% {
     opacity: 0;
   }
@@ -315,7 +315,7 @@ body {
   }
 }
 
-@keyframes fadeIn {
+@keyframes fade-in {
   0% {
     opacity: 0;
   }
@@ -324,20 +324,7 @@ body {
   }
 }
 
-@-webkit-keyframes fadeInTop {
-  0% {
-    -webkit-transform: translateY(-25px);
-            transform: translateY(-25px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateY(0px);
-            transform: translateY(0px);
-    opacity: 1;
-  }
-}
-
-@keyframes fadeInTop {
+@-webkit-keyframes fade-in-top {
   0% {
     -webkit-transform: translateY(-25px);
             transform: translateY(-25px);
@@ -350,7 +337,20 @@ body {
   }
 }
 
-@-webkit-keyframes fadeInBottom {
+@keyframes fade-in-top {
+  0% {
+    -webkit-transform: translateY(-25px);
+            transform: translateY(-25px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fade-in-bottom {
   0% {
     -webkit-transform: translateY(50px);
             transform: translateY(50px);
@@ -363,7 +363,7 @@ body {
   }
 }
 
-@keyframes fadeInBottom {
+@keyframes fade-in-bottom {
   0% {
     -webkit-transform: translateY(50px);
             transform: translateY(50px);
@@ -614,11 +614,7 @@ body {
 }
 
 .home {
-  background-image: url("../img/bg.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
+  background: url("../img/bg/bg.jpg") center/cover no-repeat fixed;
   height: 100vh;
 }
 
@@ -648,7 +644,7 @@ body {
 }
 
 .home__content {
-  width: 53%;
+  width: 55%;
   min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -732,11 +728,7 @@ body {
 }
 
 .about {
-  background-image: url("../img/bg2.jpg");
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: scroll;
+  background: url("../img/bg/bg2.jpg") top center/cover no-repeat;
   padding: 100px 0 267px 0;
 }
 
@@ -870,16 +862,13 @@ body {
 }
 
 .care {
-  background-image: url("../img/bg3.jpg");
-  background-position: top right;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: url("../img/bg/bg3.jpg") top right/cover no-repeat;
   padding: 120px 0 140px 0;
 }
 
 @media only screen and (max-width: 1024px) {
   .care {
-    background-position: center center;
+    background-position: center;
     padding: 100px 0;
   }
 }
@@ -899,7 +888,7 @@ body {
 }
 
 .care__info {
-  width: 63%;
+  width: 65%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -969,10 +958,7 @@ body {
 }
 
 .services {
-  background-image: url(../img/bg4.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: url(../img/bg/bg4.jpg) center/cover no-repeat;
   padding-top: 140px;
   margin-bottom: -5px;
 }
@@ -1426,11 +1412,7 @@ body {
 }
 
 .portfolio {
-  background-image: url(../img/bg7.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+  background: url(../img/bg/bg7.jpg) center/cover no-repeat fixed;
   padding: 110px 0 130px 0;
 }
 
@@ -1580,10 +1562,7 @@ body {
 }
 
 .testimonials {
-  background-image: url("../img/bg5.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: url("../img/bg/bg5.jpg") center/cover no-repeat;
   padding: 120px 0;
 }
 
@@ -2088,7 +2067,7 @@ body {
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
   margin: 0 10px 10px 20px;
-  border-bottom: 1px solid #e2e2e2;
+  border-bottom: 1px solid #ebebeb;
 }
 
 .price-service__item-value {
@@ -2097,10 +2076,7 @@ body {
 }
 
 .subscribe {
-  background-image: url("../img/bg6.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: url("../img/bg/bg6.jpg") center/cover no-repeat;
   padding: 144px 0 172px 0;
 }
 

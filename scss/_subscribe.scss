@@ -1,8 +1,5 @@
 .subscribe {
-    background-image: url("../img/bg6.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url("../img/bg/bg6.jpg") center / cover no-repeat;
     padding: 144px 0 172px 0;
     @include breakpoint($tablet) {
         padding: 70px 0;
@@ -50,7 +47,7 @@
     }
     // .subscribe__text
     &__text {
-        color: #757575;
+        color: $gray-color;
         font-family: $font-second;
         font-size: 16px;
         line-height: 26px;
@@ -85,7 +82,7 @@
             color: #bababa;
         }
         &:focus::placeholder {
-            color: #757575;
+            color: $gray-color;
         }
         @include breakpoint($mobile) {
             width: 100%;

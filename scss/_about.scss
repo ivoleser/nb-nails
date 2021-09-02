@@ -1,9 +1,5 @@
 .about {
-    background-image: url("../img/bg2.jpg");
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: scroll;
+    background: url("../img/bg/bg2.jpg") top center / cover no-repeat;
     padding: 100px 0 267px 0;
 
     @include breakpoint($tablet) {
@@ -84,7 +80,7 @@
     }
     // .about__info-text
     &__info-text {
-        color: #757575;
+        color: $gray-color;
         font-family: $font-second;
         font-size: 16px;
         line-height: 26px;

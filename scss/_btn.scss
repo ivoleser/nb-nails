@@ -34,11 +34,11 @@
     line-height: 14px;
     letter-spacing: 1px;
     color: #2f2c2f;
-    border: 2px solid #ebebeb;
+    border: 2px solid $light-gray-color;
     &:hover,
     &:focus {
-        color: #ebebeb;
-        background-color: #3d3a44;
-        border-color: #3d3a44;
+        color: $light-gray-color;
+        background-color: $dark-gray-color;
+        border-color: $dark-gray-color;
     }
 }

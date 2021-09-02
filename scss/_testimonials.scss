@@ -1,8 +1,5 @@
 .testimonials {
-    background-image: url("../img/bg5.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url("../img/bg/bg5.jpg") center / cover no-repeat;
     padding: 120px 0;
     @include breakpoint($tablet) {
         padding: 70px 0;
@@ -88,7 +85,7 @@
     }
     // .slider-slide__comment
     &__comment {
-        color: #757575;
+        color: $gray-color;
         font-family: $font-second;
         font-size: 20px;
         line-height: 34px;
@@ -135,7 +132,7 @@
     }
     &.fa {
         font-size: 35px;
-        color: #757575;
+        color: $gray-color;
         top: 85px;
         left: 360px;
         @include breakpoint($tablet) {
@@ -149,7 +146,7 @@
     }
     &:hover,
     &:focus {
-        color: #f64a5f;
+        color: $pink-color;
     }
 }
 .swiper-button-next {
@@ -158,7 +155,7 @@
         display: none;
     }
     &.fa {
-        color: #757575;
+        color: $gray-color;
         font-size: 35px;
         top: 85px;
         right: 360px;
@@ -173,6 +170,6 @@
     }
     &:hover,
     &:focus {
-        color: #f64a5f;
+        color: $pink-color;
     }
 }

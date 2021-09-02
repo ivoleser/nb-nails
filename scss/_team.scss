@@ -73,7 +73,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background-color: rgba($color: #ffffff, $alpha: 0.85);
+            background-color: rgba($color: $white-color, $alpha: 0.85);
             opacity: 0;
             visibility: hidden;
             transition: $animation-transition;
@@ -146,7 +146,7 @@
     }
     // .member-details__desc
     &__desc {
-        color: #757575;
+        color: $gray-color;
         font-family: $font-second;
         font-size: 16px;
         line-height: 26px;

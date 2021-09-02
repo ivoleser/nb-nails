@@ -45,7 +45,7 @@
     &__contact {
         border-style: solid;
         border-width: 0 2px;
-        border-color: #ebebeb;
+        border-color: $light-gray-color;
         padding: 10px 35px 0 62px;
         @include breakpoint($tablet) {
             padding: 10px 25px 0;

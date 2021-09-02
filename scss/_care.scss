@@ -1,11 +1,8 @@
 .care {
-    background-image: url("../img/bg3.jpg");
-    background-position: top right;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url("../img/bg/bg3.jpg") top right / cover no-repeat;
     padding: 120px 0 140px 0;
     @include breakpoint($tablet) {
-        background-position: center center;
+        background-position: center;
         padding: 100px 0;
     }
     @include breakpoint($mobile) {
@@ -21,7 +18,7 @@
     }
     // .care__info
     &__info {
-        width: 63%;
+        width: 65%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -52,7 +49,7 @@
     }
     // .care__info-subtitle
     &__info-subtitle {
-        color: #757575;
+        color: $gray-color;
         font-size: 48px;
         font-weight: 400;
         font-style: italic;

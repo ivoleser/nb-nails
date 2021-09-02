@@ -1,9 +1,5 @@
 .home {
-    background-image: url("../img/bg.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+    background: url("../img/bg/bg.jpg") center / cover no-repeat fixed;
     height: 100vh;
     @include breakpoint($tablet) {
         background-attachment: scroll;
@@ -23,7 +19,7 @@
     }
     // .home__content
     &__content {
-        width: 53%;
+        width: 55%;
         min-height: 100vh;
         display: flex;
         flex-direction: column;
