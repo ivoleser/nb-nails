@@ -4,7 +4,7 @@
 * [Setup](#setup)
 
 ## General info
-This is a landing page "Wildlife" project.  
+This is a landing page "NB nails" project.  
 Deploy: https://ivoleser.github.io/nb-nails/
 	
 ## Technologies
