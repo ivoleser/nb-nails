@@ -1,5 +1,0 @@
-@mixin breakpoint($br) {
-    @media only screen and (max-width: $br) {
-        @content;
-    }
-}
